@@ -49,7 +49,7 @@ async function verifyToken(authHeader) {
   return verify(token, jwksUrl, { algorithms:['RS256'] });
 }
 
-function getToken(authHeader) {
+export function getToken(authHeader) {
   if (!authHeader) throw new Error('No authentication header')
 
   if (!authHeader.toLowerCase().startsWith('bearer '))
