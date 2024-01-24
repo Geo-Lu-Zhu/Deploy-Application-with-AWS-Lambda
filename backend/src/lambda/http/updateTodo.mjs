@@ -1,7 +1,7 @@
-import 'source-map-support/register'
-import { todoExists, updateTodo } from '../../businessLogic/todos'
-import { createLogger } from '../../utils/logger'
-import { getUserId } from '../utils'
+import 'source-map-support/register.js'
+import { todoExists, updateTodo } from '../../businessLogic/todos.mjs'
+import { createLogger } from '../../utils/logger.mjs'
+import { getUserId } from '../utils.mjs'
 
 const logger = createLogger('auth')
 

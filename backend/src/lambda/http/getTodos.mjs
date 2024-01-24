@@ -1,6 +1,6 @@
-import 'source-map-support/register'
-import { getTodosForUser } from '../../businessLogic/todos'
-import { getToken } from '../auth/auth0Authorizer'
+import 'source-map-support/register.js'
+import { getTodosForUser } from '../../businessLogic/todos.mjs'
+import { getToken } from '../auth/auth0Authorizer.mjs'
 
 export async function handler(event) {
   console.log('Processing event: ' + event);

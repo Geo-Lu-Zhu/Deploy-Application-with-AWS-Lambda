@@ -8,7 +8,7 @@ module.exports = {
   // externals: [nodeExternals()],
   devtool: 'source-map',
   resolve: {
-    extensions: ['.js', '.jsx', '.json'],
+    extensions: ['.js', '.mjs', '.json'],
   },
   output: {
     libraryTarget: 'commonjs',

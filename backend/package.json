@@ -1,7 +1,7 @@
 {
   "name": "serverless-todo-app",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "description": "Serverless TODO image app",
   "main": "handler.js",
   "scripts": {
@@ -18,6 +18,7 @@
     "@middy/core": "^3.6.2",
     "@middy/http-cors": "^3.6.2",
     "@middy/http-error-handler": "^3.6.2",
+    "aws-xray-sdk": "^3.5.3",
     "aws-xray-sdk-core": "^3.5.3",
     "axios": "^1.6.5",
     "http-errors": "^2.0.0",

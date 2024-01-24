@@ -1,8 +1,8 @@
-import 'source-map-support/register'
-import { createAttachmentPresignedUrl } from '../../fileStorage/attachmentUtils'
-import { todoExists } from '../../businessLogic/todos'
-import { createLogger } from '../../utils/logger'
-import { getUserId } from '../utils'
+import 'source-map-support/register.js'
+import { createAttachmentPresignedUrl } from '../../fileStorage/attachmentUtils.mjs'
+import { todoExists } from '../../businessLogic/todos.mjs'
+import { createLogger } from '../../utils/logger.mjs'
+import { getUserId } from '../utils.mjs'
 
 const logger = createLogger('auth')
 

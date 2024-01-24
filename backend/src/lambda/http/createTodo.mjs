@@ -1,6 +1,6 @@
-import 'source-map-support/register'
-import { createTodo } from '../../businessLogic/todos'
-import { getToken } from '../auth/auth0Authorizer'
+import 'source-map-support/register.js'
+import { createTodo } from '../../businessLogic/todos.mjs'
+import { getToken } from '../auth/auth0Authorizer.mjs'
 
 export async function handler(event) {
   const newTodo = JSON.parse(event.body)

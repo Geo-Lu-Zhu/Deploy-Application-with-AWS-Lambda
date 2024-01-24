@@ -1,8 +1,8 @@
-import { TodosAccess } from '../dataLayer/todosAcess'
+import { TodosAccess } from '../dataLayer/todosAccess.mjs'
 import * as uuid from 'uuid'
-import { parseUserId } from '../auth/utils';
-import { getTodoAttachmentUrl } from '../fileStorage/attachmentUtils'
-import { createLogger } from '../utils/logger'
+import { parseUserId } from '../auth/utils.mjs';
+import { getTodoAttachmentUrl } from '../fileStorage/attachmentUtils.mjs'
+import { createLogger } from '../utils/logger.mjs'
 
 const todoAccess = new TodosAccess()
 
